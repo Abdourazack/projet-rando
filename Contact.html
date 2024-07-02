@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Randonnées et Cyclisme en Plein Air</title>
+    <link rel="stylesheet" href="/Assets/Css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Randonnées et Cyclisme en Plein Air</h1>
+            <nav>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="randonnees.html">Randonnées</a></li>
+                    <li><a href="cyclisme.html">Cyclisme</a></li>
+                    <li><a href="conseils.html">Conseils</a></li>
+                    <li><a href="communaute.html">Communauté</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form action="envoyer-email.php" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023-2024 Randonnées et Cyclisme en Plein Air Projet Web IEPSM</p>
+        </div>
+    </footer>
+</body>
+</html>
